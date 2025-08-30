@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Batci Force Login at Checkout 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-15 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: batci-force-login-checkout.php:45
+msgid "Settings"
+msgstr ""
+
+#: batci-force-login-checkout.php:53
+msgid "Batci Force Login at Checkout requires WooCommerce to be installed and active."
+msgstr ""
+
+#: batci-force-login-checkout.php:126
+msgid "Invalid nonce"
+msgstr ""
+
+#: batci-force-login-checkout.php:168
+msgid "Not logged in"
+msgstr ""
+
+#: batci-force-login-checkout.php:176
+msgid "Please enter a valid name and email."
+msgstr ""
+
+#: batci-force-login-checkout.php:182
+msgid "Email already in use by another account."
+msgstr ""
+
+#: batci-force-login-checkout.php:211
+msgid "Please sign in with your mobile number to complete checkout."
+msgstr ""
+
+#: includes/class-batci-admin.php:25
+msgid "Batci Force Login at Checkout"
+msgstr ""
+
+#: includes/class-batci-admin.php:26
+msgid "Batci FLC"
+msgstr ""
+
+#: includes/class-batci-admin.php:107 includes/class-batci-admin.php:108
+msgid "Security"
+msgstr ""
+
+#: includes/class-batci-admin.php:109 includes/class-batci-admin.php:110
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-batci-admin.php:111 includes/class-batci-admin.php:112
+msgid "Messages"
+msgstr ""
+
+#: includes/class-batci-admin.php:113 includes/class-batci-admin.php:114
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-batci-admin.php:115 includes/class-batci-admin.php:116
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-batci-admin.php:132
+msgid "OTP Expiry Time (minutes)"
+msgstr ""
+
+#: includes/class-batci-admin.php:139
+msgid "How long the OTP remains valid (1-60 minutes)"
+msgstr ""
+
+#: includes/class-batci-admin.php:144
+msgid "Maximum OTP Attempts"
+msgstr ""
+
+#: includes/class-batci-admin.php:151
+msgid "Maximum OTP requests allowed per phone number"
+msgstr ""
+
+#: includes/class-batci-admin.php:156
+msgid "Rate Limit Window (minutes)"
+msgstr ""
+
+#: includes/class-batci-admin.php:163
+msgid "Time window for counting OTP attempts"
+msgstr ""
+
+#: includes/class-batci-admin.php:179
+msgid "Modal Background Color"
+msgstr ""
+
+#: includes/class-batci-admin.php:189
+msgid "Modal Text Color"
+msgstr ""
+
+#: includes/class-batci-admin.php:199
+msgid "Modal Accent Color"
+msgstr ""
+
+#: includes/class-batci-admin.php:210
+msgid "Preview"
+msgstr ""
+
+#: includes/class-batci-admin.php:238
+msgid "Modal Title"
+msgstr ""
+
+#: includes/class-batci-admin.php:248
+msgid "Modal Subtitle"
+msgstr ""
+
+#: includes/class-batci-admin.php:258
+msgid "Loading Text"
+msgstr ""
+
+#: includes/class-batci-admin.php:268
+msgid "Error Text"
+msgstr ""
+
+#: includes/class-batci-admin.php:285
+msgid "Enable Analytics"
+msgstr ""
+
+#: includes/class-batci-admin.php:289
+msgid "Track OTP usage and conversion metrics"
+msgstr ""
+
+#: includes/class-batci-admin.php:294
+msgid "Enable Security Logs"
+msgstr ""
+
+#: includes/class-batci-admin.php:298
+msgid "Log security events and failed attempts"
+msgstr ""
+
+#: includes/class-batci-admin.php:303
+msgid "Auto Cleanup (days)"
+msgstr ""
+
+#: includes/class-batci-admin.php:310
+msgid "Automatically delete old records after this many days"
+msgstr ""
+
+#: includes/class-batci-admin.php:317
+msgid "Clean Up Old Data Now"
+msgstr ""
+
+#: includes/class-batci-admin.php:320
+msgid "Export Analytics Data"
+msgstr ""
+
+#: includes/class-batci-admin.php:334
+msgid "Today's OTP Requests"
+msgstr ""
+
+#: includes/class-batci-admin.php:338
+msgid "Success Rate"
+msgstr ""
+
+#: includes/class-batci-admin.php:342
+msgid "Total Users Authenticated"
+msgstr ""
+
+#: includes/class-batci-admin.php:346
+msgid "Failed Attempts"
+msgstr ""
+
+#: includes/class-batci-admin.php:352
+msgid "OTP Usage Over Time"
+msgstr ""
+
+#: includes/class-batci-admin.php:356
+msgid "Success vs Failed Attempts"
+msgstr ""
+
+#: includes/class-batci-frontend.php:83
+msgid "Sign in to continue"
+msgstr ""
+
+#: includes/class-batci-frontend.php:84
+msgid "Use your mobile number to log in or register to complete checkout."
+msgstr ""
+
+#: includes/class-batci-frontend.php:85
+msgid "Loading…"
+msgstr ""
+
+#: includes/class-batci-frontend.php:86
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/class-batci-frontend.php:87
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-batci-frontend.php:88
+msgid "Enter your phone number"
+msgstr ""
+
+#: includes/class-batci-frontend.php:89
+msgid "Send OTP"
+msgstr ""
+
+#: includes/class-batci-frontend.php:90
+msgid "Sending..."
+msgstr ""
+
+#: includes/class-batci-frontend.php:91
+msgid "Verification Code"
+msgstr ""
+
+#: includes/class-batci-frontend.php:92
+msgid "Enter 6-digit code"
+msgstr ""
+
+#: includes/class-batci-frontend.php:93
+msgid "Verify Code"
+msgstr ""
+
+#: includes/class-batci-frontend.php:94
+msgid "Verifying..."
+msgstr ""
+
+#: includes/class-batci-frontend.php:95
+msgid "Resend Code"
+msgstr ""
+
+#: includes/class-batci-frontend.php:96
+msgid "Back to phone"
+msgstr ""
+
+#: includes/class-batci-frontend.php:97
+msgid "First Name"
+msgstr ""
+
+#: includes/class-batci-frontend.php:98
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-batci-frontend.php:99
+msgid "Email Address"
+msgstr ""
+
+#: includes/class-batci-frontend.php:100
+msgid "Save & Continue"
+msgstr ""
+
+#: includes/class-batci-frontend.php:101
+msgid "Saving..."
+msgstr ""
+
+#: includes/class-batci-frontend.php:102
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: includes/class-batci-frontend.php:103
+msgid "Please enter a valid 6-digit code"
+msgstr ""
+
+#: includes/class-batci-frontend.php:104
+msgid "Please fill in all required fields"
+msgstr ""
+
+#: includes/class-batci-frontend.php:105
+msgid "Too many attempts. Please try again later."
+msgstr ""
+
+#: includes/class-batci-frontend.php:106
+msgid "Verification code sent to your phone"
+msgstr ""
+
+#: includes/class-batci-frontend.php:107
+msgid "Code has expired. Please request a new one."
+msgstr ""
+
+#: includes/class-batci-frontend.php:108
+msgid "Enter Phone Number"
+msgstr ""
+
+#: includes/class-batci-frontend.php:109
+msgid "Verify Code"
+msgstr ""
+
+#: includes/class-batci-frontend.php:110
+msgid "Complete Profile"
+msgstr ""
+
+#: includes/class-batci-security.php:104
+msgid "Your verification code is: %s. This code will expire in %d minutes."
+msgstr ""
+
+#: includes/class-batci-security.php:144
+msgid "Invalid security token"
+msgstr ""
+
+#: includes/class-batci-security.php:152
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: includes/class-batci-security.php:157 includes/class-batci-security.php:165
+msgid "Too many attempts. Please try again later."
+msgstr ""
+
+#: includes/class-batci-security.php:172
+msgid "Failed to generate OTP. Please try again."
+msgstr ""
+
+#: includes/class-batci-security.php:177
+msgid "Failed to send OTP. Please try again."
+msgstr ""
+
+#: includes/class-batci-security.php:186
+msgid "OTP sent successfully"
+msgstr ""
+
+#: includes/class-batci-security.php:204
+msgid "Phone number and OTP code are required"
+msgstr ""
+
+#: includes/class-batci-security.php:209
+msgid "Invalid or expired OTP code"
+msgstr ""
+
+#: includes/class-batci-security.php:219
+msgid "OTP verified successfully"
+msgstr ""
