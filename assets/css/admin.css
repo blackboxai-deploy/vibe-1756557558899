@@ -1,0 +1,463 @@
+/**
+ * Batci Force Login at Checkout - Admin Styles
+ * Version: 1.2.0
+ */
+
+/* Admin Page Layout */
+.batci-flc-admin-content {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Stats Grid */
+.batci-flc-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.batci-stat-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.batci-stat-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.batci-stat-card h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0073aa;
+    margin: 0;
+}
+
+/* Charts */
+.batci-flc-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.chart-container {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chart-container h3 {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.chart-container canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Color Picker Customization */
+.batci-color-picker {
+    width: 100px;
+}
+
+.wp-picker-container {
+    vertical-align: top;
+}
+
+/* Preview Modal */
+.batci-flc-preview {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+}
+
+.batci-flc-preview h3 {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.batci-flc-modal-preview {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.preview-modal {
+    background: #fff;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.preview-header {
+    text-align: center;
+    padding: 24px 24px 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.preview-brand {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0073aa;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+.preview-header h4 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.preview-header p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.preview-body {
+    padding: 20px 24px 24px;
+}
+
+.preview-progress-bar {
+    height: 3px;
+    background: #f0f0f0;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.preview-progress-fill {
+    height: 100%;
+    background: #0073aa;
+    width: 33.33%;
+    border-radius: 2px;
+}
+
+.preview-form input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.preview-form button {
+    width: 100%;
+    padding: 10px 16px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+/* Action Buttons */
+.batci-flc-actions {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.batci-flc-actions .button {
+    margin-right: 10px;
+}
+
+/* Loading States */
+.batci-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: batci-spin 1s linear infinite;
+    margin-left: 5px;
+}
+
+@keyframes batci-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Success/Error Messages */
+.batci-admin-notice {
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 15px 0;
+    display: none;
+}
+
+.batci-admin-notice.success {
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.batci-admin-notice.error {
+    background: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+/* Form Tables */
+.form-table th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+.form-table td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: top;
+}
+
+.form-table .description {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Dashboard Grid */
+.batci-flc-dashboard {
+    max-width: 1200px;
+}
+
+/* Security Logs Table */
+.batci-security-logs {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.batci-security-logs th,
+.batci-security-logs td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.batci-security-logs th {
+    background: #f9f9f9;
+    font-weight: 600;
+    color: #333;
+}
+
+.batci-security-logs tr:hover {
+    background: #f9f9f9;
+}
+
+.log-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.log-status.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.log-status.failed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.log-status.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Responsive Design */
+@media (max-width: 782px) {
+    .batci-flc-stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .batci-flc-charts {
+        grid-template-columns: 1fr;
+    }
+    
+    .chart-container {
+        min-width: auto;
+    }
+    
+    .batci-flc-modal-preview {
+        padding: 20px;
+    }
+    
+    .preview-modal {
+        max-width: 300px;
+    }
+    
+    .batci-flc-actions .button {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .batci-flc-admin-content {
+        padding: 15px;
+    }
+    
+    .batci-stat-card {
+        padding: 15px;
+    }
+    
+    .stat-number {
+        font-size: 24px;
+    }
+    
+    .chart-container {
+        padding: 15px;
+    }
+    
+    .preview-modal {
+        max-width: 280px;
+    }
+    
+    .preview-header {
+        padding: 20px 20px 16px;
+    }
+    
+    .preview-body {
+        padding: 16px 20px 20px;
+    }
+}
+
+/* Tab Navigation Enhancement */
+.nav-tab-wrapper {
+    border-bottom: 1px solid #ccd0d4;
+    margin-bottom: 0;
+}
+
+.nav-tab {
+    background: #f1f1f1;
+    border: 1px solid #ccd0d4;
+    color: #666;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-left: 0.5em;
+    margin-bottom: -1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-tab:hover {
+    background: #e9e9e9;
+    color: #333;
+}
+
+.nav-tab-active,
+.nav-tab-active:hover {
+    background: #fff;
+    border-bottom-color: #fff;
+    color: #333;
+}
+
+/* Settings Sections */
+.batci-settings-section {
+    margin-bottom: 40px;
+}
+
+.batci-settings-section:last-child {
+    margin-bottom: 0;
+}
+
+.batci-settings-section h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+}
+
+/* Export/Import Buttons */
+.batci-export-import {
+    background: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.batci-export-import h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.batci-export-import .button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Help Text */
+.batci-help-text {
+    background: #f0f6fc;
+    border: 1px solid #c0d3eb;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+    color: #0969da;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.batci-help-text h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0969da;
+}
+
+.batci-help-text ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.batci-help-text li {
+    margin-bottom: 5px;
+}
